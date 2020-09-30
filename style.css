@@ -1,0 +1,53 @@
+ @import 'util.css';
+ :root{
+
+    --primary:#2393de;
+    --secondary:#0b03fc;
+     --dark:#111212;
+     --light:#6eaae6;  
+     --red:#eb2838;
+ }
+ body{
+     font-family: 'poppins',sans-serif;
+ }
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     -webkit-font-smoothing:antialiased
+ }
+ header{
+     background: var(--dark);
+ }
+ .container{
+     max-width: 1152px;
+     padding: 0 15px;
+     margin:0 auto ;
+ }
+ header nav .left a{
+     color: white; 
+     text-decoration:none;
+     margin-right: 2rem;
+     text-transform: uppercase;
+     transition: all .3s ease;
+
+ }
+ header nav .left a:hover{ 
+     color: rgb(252, 0, 0);}
+ header nav{
+     padding: 2rem 0;
+ }
+ header nav .branding{
+     margin-right:5rem;
+ }
+ .mike .left img{
+     
+     width: 250px;
+ }
+ .mike .right {
+     color: white;
+     
+}
+.mike .right{
+    padding: 3rem;
+}
